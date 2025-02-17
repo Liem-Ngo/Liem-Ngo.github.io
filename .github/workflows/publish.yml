@@ -27,6 +27,32 @@ jobs:
         with:
           cache-version: 1
 
+      - name: Clean up gh-pages branch
+        run: |
+          # Configure git so that commits can be made by the Action
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          
+          # Attempt to clone the gh-pages branch; if it doesn't exist, create it
+          if git clone --branch gh-pages --depth 1 https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages; then
+            echo "gh-pages branch cloned."
+          else
+            echo "gh-pages branch does not exist. Creating a new one."
+            mkdir gh-pages && cd gh-pages
+            git init
+            git checkout -b gh-pages
+            cd ..
+          fi
+          
+          # Remove all files from the branch
+          cd gh-pages
+          git rm -rf . || true
+          rm -rf *
+          
+          # Commit and push the removal
+          git commit -m "Clean up gh-pages branch" || echo "Nothing to commit"
+          git push origin gh-pages
+          
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
