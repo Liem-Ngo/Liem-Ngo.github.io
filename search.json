@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Basis Deep Learning Workshop",
+    "section": "",
+    "text": "13 June 2024\n\n\nOur deep learning workshop includes core concepts with hands-on PyTorch experience. You’ll dive into Machine Learning (ML) and Deep Learning (DL) basics, focusing on Artificial Neural Networks (ANN). Explore astrophysics applications and participate in interactive Q&A sessions. Learn about forward and backward passes, layers, activation functions, and loss calculation. Engage in practical exercises, such as fitting a sine function in Google Colab, and discover Tensor Playground to visualize tensor operations.\n\n\n\n\n\n\n\n\n\n\nTime\nActivity\n\n\n\n\n12:30 - 13:00\nCoffee\n\n\n13:00 - 13:05\nIntroduction to the Workshop: Welcome\n\n\n13:05 - 13:50\nIntroduction to ML and DL (with ANN)\n\n\n\nML and DL applied in Astrophysics\n\n\n\nQ&A\n\n\n13:50 - 14:00\nCoffee break\n\n\n14:00 - 14:30\nIntro: Layers, Activations, Backpropagation, Loss\n\n\n14:30 - 15:20\nWhat is the neural network and how it learns\n\n\n\nDeep Learning with Pytorch and Tensor Playground\n\n\n15:20 - 15:25\nSummary: General structure of constructing a model using DL\n\n\n15:25 - 15:40\nQ&A\n\n\n15:40 - 15:55\nPlaying with Tensor Playground\n\n\n15:55 - 16:00\nQ&A\n\n\n16:00 - 16:15\nCoffee break\n\n\n16:15 - 17:30\nHands-on session"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Basis Deep Learning Workshop",
+    "section": "",
+    "text": "Our deep learning workshop includes core concepts with hands-on PyTorch experience. You’ll dive into Machine Learning (ML) and Deep Learning (DL) basics, focusing on Artificial Neural Networks (ANN). Explore astrophysics applications and participate in interactive Q&A sessions. Learn about forward and backward passes, layers, activation functions, and loss calculation. Engage in practical exercises, such as fitting a sine function in Google Colab, and discover Tensor Playground to visualize tensor operations."
+  },
+  {
+    "objectID": "index.html#timetable",
+    "href": "index.html#timetable",
+    "title": "Basis Deep Learning Workshop",
+    "section": "",
+    "text": "Time\nActivity\n\n\n\n\n12:30 - 13:00\nCoffee\n\n\n13:00 - 13:05\nIntroduction to the Workshop: Welcome\n\n\n13:05 - 13:50\nIntroduction to ML and DL (with ANN)\n\n\n\nML and DL applied in Astrophysics\n\n\n\nQ&A\n\n\n13:50 - 14:00\nCoffee break\n\n\n14:00 - 14:30\nIntro: Layers, Activations, Backpropagation, Loss\n\n\n14:30 - 15:20\nWhat is the neural network and how it learns\n\n\n\nDeep Learning with Pytorch and Tensor Playground\n\n\n15:20 - 15:25\nSummary: General structure of constructing a model using DL\n\n\n15:25 - 15:40\nQ&A\n\n\n15:40 - 15:55\nPlaying with Tensor Playground\n\n\n15:55 - 16:00\nQ&A\n\n\n16:00 - 16:15\nCoffee break\n\n\n16:15 - 17:30\nHands-on session"
+  },
+  {
+    "objectID": "DL-detail.html",
+    "href": "DL-detail.html",
+    "title": "1. Initialize the weights and biases",
+    "section": "",
+    "text": "In deep learning, initializing weights and biases appropriately is crucial for the performance and convergence of neural networks. Here’s a more detailed look at the initialization process for both weights and biases:\n\n\n\nRandom Initialization: Weights are typically initialized randomly. This helps in breaking the symmetry and ensures that neurons in different layers learn different features.\n\n\n\n\nAvoid Exploding/Vanishing Activations: Large weights can cause activations to grow exponentially (exploding), while small weights can cause activations to shrink exponentially (vanishing), both hindering learning.\nBreak Symmetry: Random initialization breaks the symmetry where all neurons compute the same gradient, allowing them to learn different features.\nGradient Flow: Proper scaling helps maintain healthy gradient flow during backpropagation, preventing gradients from exploding or vanishing."
+  },
+  {
+    "objectID": "DL-detail.html#weights-initialization",
+    "href": "DL-detail.html#weights-initialization",
+    "title": "1. Initialize the weights and biases",
+    "section": "",
+    "text": "Random Initialization: Weights are typically initialized randomly. This helps in breaking the symmetry and ensures that neurons in different layers learn different features.\n\n\n\n\nAvoid Exploding/Vanishing Activations: Large weights can cause activations to grow exponentially (exploding), while small weights can cause activations to shrink exponentially (vanishing), both hindering learning.\nBreak Symmetry: Random initialization breaks the symmetry where all neurons compute the same gradient, allowing them to learn different features.\nGradient Flow: Proper scaling helps maintain healthy gradient flow during backpropagation, preventing gradients from exploding or vanishing."
+  },
+  {
+    "objectID": "intro_pytorch.html",
+    "href": "intro_pytorch.html",
+    "title": "basic-DL",
+    "section": "",
+    "text": "Neural networks are computational models inspired by the human brain. They consist of layers of interconnected nodes (neurons) where each connection has an associated weight. The basic flow in a neural network involves:\n\nForward Propagation: Input data passes through the network layers to produce an output.\nLoss Calculation: The output is compared with the actual target to compute the loss.\nBackpropagation: The network adjusts the weights to minimize the loss."
+  },
+  {
+    "objectID": "intro_pytorch.html#introduction-to-neural-networks",
+    "href": "intro_pytorch.html#introduction-to-neural-networks",
+    "title": "basic-DL",
+    "section": "",
+    "text": "Neural networks are computational models inspired by the human brain. They consist of layers of interconnected nodes (neurons) where each connection has an associated weight. The basic flow in a neural network involves:\n\nForward Propagation: Input data passes through the network layers to produce an output.\nLoss Calculation: The output is compared with the actual target to compute the loss.\nBackpropagation: The network adjusts the weights to minimize the loss."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "basic-DL",
+    "section": "",
+    "text": "1. Observation of Interstellar Medium (ISM) and Molecular Clouds\n\nData Reduction and Noise Filtering: ML algorithms enhance observational data quality by reducing noise and improving the signal-to-noise ratio in data from radio, infrared, and optical telescopes.\n\nReference: Samuel, H. S., Etim, E. E., Shinggu, J. P., & Bako, B. (2023). Machine learning of Rotational spectra analysis in interstellar medium. Communication in Physical Sciences, 10(1), 172-203. [3]\n\nFeature Extraction: DL models, such as convolutional neural networks (CNNs), identify and classify structures within the ISM and molecular clouds, such as filaments and cores.\n\nReference: Samuel, H. S., Etim, E. E., Shinggu, J. P., & Bako, B. (2023). Machine learning of Rotational spectra analysis in interstellar medium. Communication in Physical Sciences, 10(1), 172-203. [3]\n\nAnomaly Detection: ML techniques detect unusual features or events within the ISM, potentially indicating new astrophysical phenomena.\n\nReference: Samuel, H. S., Etim, E. E., Shinggu, J. P., & Bako, B. (2023). Machine learning of Rotational spectra analysis in interstellar medium. Communication in Physical Sciences, 10(1), 172-203. [3]\n\n\n\n\n2. High-Mass Star Formation\n\nData Analysis: ML models analyze large datasets from observatories to identify regions of high-mass star formation by detecting specific spectral lines and emission features.\n\nReference: Surana, S., Wadadekar, Y., Bait, O., & Bhosale, H. (2020). Predicting star formation properties of galaxies using deep learning. Monthly Notices of the Royal Astronomical Society, 493(4), 4808-4815. [2]\n\nPattern Recognition: DL algorithms identify patterns and correlations in the spatial and temporal distribution of high-mass star-forming regions, helping to understand the underlying physical processes.\n\nReference: Surana, S., Wadadekar, Y., Bait, O., & Bhosale, H. (2020). Predicting star formation properties of galaxies using deep learning. Monthly Notices of the Royal Astronomical Society, 493(4), 4808-4815. [2]\n\nPredictive Modeling: ML models predict the future evolution of star-forming regions based on current observations.\n\nReference: Surana, S., Wadadekar, Y., Bait, O., & Bhosale, H. (2020). Predicting star formation properties of galaxies using deep learning. Monthly Notices of the Royal Astronomical Society, 493(4), 4808-4815. [2]\n\n\n\n\n3. Simulation of High-Mass Star Formation\n\nAccelerated Simulations: ML techniques, such as generative adversarial networks (GANs), enhance the efficiency of high-mass star formation simulations by generating high-fidelity results from lower-resolution inputs.\n\nReference: Bonjean, V., Aghanim, N., Salomé, P., Beelen, A., Douspis, M., & Soubrié, E. (2019). Star formation rates and stellar masses from machine learning. Astronomy & Astrophysics, 621, A51. [5]\n\nParameter Space Exploration: ML models explore the vast parameter space of star formation simulations to identify optimal conditions and initial configurations for high-mass star formation.\n\nReference: Bonjean, V., Aghanim, N., Salomé, P., Beelen, A., Douspis, M., & Soubrié, E. (2019). Star formation rates and stellar masses from machine learning. Astronomy & Astrophysics, 621, A51. [5]\n\n\n\n\n4. Astrochemistry\n\nChemical Abundance Mapping: ML models analyze spectral data to map the distribution of various molecules within molecular clouds and other astrophysical environments.\n\nReference: Xue, B.-X., Barbatti, M., & Dral, P. (2020). Machine learning for absorption cross sections. Journal of Physical Chemistry A, 124(35), 7199-7210. [4]\n\nReaction Network Analysis: DL helps in understanding complex chemical networks by identifying key reactions and pathways in the formation and destruction of molecules in space.\n\nReference: Villadsen, T., Ligterink, N. F. W., & Andersen, M. (2022). Predicting binding energies of astrochemically relevant molecules via machine learning. Astronomy & Astrophysics, 666, A45. [4]\n\nAnomaly Detection: ML algorithms identify unusual chemical compositions or rare molecules, providing insights into unique astrochemical processes.\n\nReference: Lee, K. L. K., Patterson, J., Burkhardt, A. M., Vankayalapati, V., & McCarthy, M. C. (2021). Machine learning of interstellar chemical inventories. Astrophysical Journal Letters, 917(1), L6. [4]\n\n\n\n\n5. Stellar Feedback\n\nSimulation and Modeling: DL accelerates simulations of stellar feedback processes, such as supernova explosions and stellar winds, by learning from high-resolution simulations and predicting outcomes for new scenarios.\n\nReference: Surana, S., Wadadekar, Y., Bait, O., & Bhosale, H. (2020). Predicting star formation properties of galaxies using deep learning. Monthly Notices of the Royal Astronomical Society, 493(4), 4808-4815. [2]\n\nImpact Analysis: ML techniques assess the impact of stellar feedback on surrounding ISM and star formation by analyzing observational data and simulation outputs.\n\nReference: Surana, S., Wadadekar, Y., Bait, O., & Bhosale, H. (2020). Predicting star formation properties of galaxies using deep learning. Monthly Notices of the Royal Astronomical Society, 493(4), 4808-4815. [2]\n\n\n\n\n6. Galaxy Formation\n\nMorphological Classification: CNNs classify galaxies based on their shapes and structures from large-scale survey images, aiding in the study of galaxy formation and evolution.\n\nReference: Bonjean, V., Aghanim, N., Salomé, P., Beelen, A., Douspis, M., & Soubrié, E. (2019). Star formation rates and stellar masses from machine learning. Astronomy & Astrophysics, 621, A51. [5]\n\nMerger Detection: ML algorithms detect galaxy mergers and interactions in observational data and simulations, which are crucial for understanding galaxy formation processes.\n\nReference: Bonjean, V., Aghanim, N., Salomé, P., Beelen, A., Douspis, M., & Soubrié, E. (2019). Star formation rates and stellar masses from machine learning. Astronomy & Astrophysics, 621, A51. [5]\n\nPredictive Modeling: DL models predict the future evolution of galaxies based on current observations and simulations, helping to test theories of galaxy formation.\n\nReference: Bonjean, V., Aghanim, N., Salomé, P., Beelen, A., Douspis, M., & Soubrié, E. (2019). Star formation rates and stellar masses from machine learning. Astronomy & Astrophysics, 621, A51. [5]"
+  },
+  {
+    "objectID": "about1.html",
+    "href": "about1.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "tensor_playground.html",
+    "href": "tensor_playground.html",
+    "title": "basic-DL",
+    "section": "",
+    "text": "Introduction to TensorFlow Playground\nTensorFlow Playground is an interactive web-based tool designed to help users understand the inner workings of neural networks. It provides a visual and intuitive interface for experimenting with various neural network architectures and parameters without needing to write any code. This educational tool allows users to see how changes to hyperparameters and network structure affect the model’s performance on simple datasets.\n\n\nKey Features\n\n\nInteractive Visualization: Users can visualize the data, the decision boundaries formed by the neural network, and how these boundaries evolve as the network trains.\nReal-time Feedback: Observe how changing hyperparameters and network structure in real-time impacts the training process and model performance.\nEducational Tool: Ideal for students, educators, and anyone new to machine learning who wants to gain a deeper understanding of neural networks."
+  }
+]
