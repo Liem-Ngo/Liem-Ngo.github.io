@@ -43,7 +43,10 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
 
-          # Check if the gh-pages branch exists in the remote
+          # Remove any existing local gh-pages directory to avoid conflicts
+          rm -rf gh-pages
+
+          # Check if the gh-pages branch exists on the remote
           if git ls-remote --exit-code origin gh-pages; then
             echo "gh-pages branch exists, cloning it."
             git clone --branch gh-pages --depth 1 https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY} gh-pages
@@ -57,7 +60,8 @@ jobs:
             git commit --allow-empty -m "Initial commit on gh-pages branch"
             git push --set-upstream https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY} gh-pages
             cd ..
-            # Clone the newly created branch
+            # Remove the directory to ensure a clean clone
+            rm -rf gh-pages
             git clone --branch gh-pages --depth 1 https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY} gh-pages
           fi
 
