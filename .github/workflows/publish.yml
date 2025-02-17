@@ -22,6 +22,14 @@ jobs:
         with:
           r-version: '4.2.0'
 
+      - name: Cache renv Library
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/renv
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}-v2
+          restore-keys: |
+            ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}-
+
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
@@ -58,7 +66,7 @@ jobs:
           git rm -rf . || true
           rm -rf *
           
-          # Commit and push the removal (if there was anything to commit)
+          # Commit and push the cleanup (if there was anything to commit)
           git commit -m "Clean up gh-pages branch" || echo "Nothing to commit"
           git push origin gh-pages
 
