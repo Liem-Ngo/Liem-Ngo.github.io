@@ -1,0 +1,17 @@
+{
+  "index.qmd": {
+    "index.html": "3b6d3d19"
+  },
+  "about.qmd": {
+    "about.html": "6f4f12ca"
+  },
+  "UntitledQMD.qmd": {
+    "UntitledQMD.html": "1127d302"
+  },
+  "intro_pytorch.qmd": {
+    "intro_pytorch.html": "00cafdf7"
+  },
+  "tensor_playground.qmd": {
+    "tensor_playground.html": "e7772ffb"
+  }
+}

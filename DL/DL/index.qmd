@@ -1,0 +1,92 @@
+## Machine learning (ML)
+
+Machine learning (ML) is a subset of artificial intelligence (AI) that enables machines to learn from experience and act automatically. ML algorithms can be broadly classified into three categories: supervised learning, unsupervised learning, and reinforcement learning.
+
+### Supervised Learning
+
+Supervised learning involves training ML algorithms on labeled datasets where both input and output parameters are known. The goal is to develop a regression or classification model that can be used on new datasets to generate predictions or draw conclusions. Supervised learning algorithms learn to map input features to output labels, allowing them to make predictions or classifications on new, unseen data.
+
+Examples of supervised learning algorithms include:
+
+1. **Linear Regression**: A simple algorithm used to map the linear relationship between input features and a continuous target variable.
+2. **Logistic Regression**: An extension of linear regression used for classification tasks to estimate the likelihood that an instance belongs to a specific class.
+3. **Support Vector Machines (SVMs)**: Supervised learning algorithms that can perform classification and regression tasks by finding a hyperplane that best separates classes in feature space.
+4. **K-Nearest Neighbors (KNN)**: A non-parametric technique used for classification as well as regression by identifying the k most similar data points to a new data point and predicting the label of the new data point using the labels of those data points.
+5. **Decision Trees**: A type of supervised learning technique used for classification as well as regression by segmenting the data into smaller and smaller groups until each group can be classified or predicted with high degree of accuracy.
+6. **Random Forest**: An ensemble learning method that employs a set of decision trees to make predictions by aggregating predictions from individual trees.
+7. **Naive Bayes**: A probabilistic classifier based on Bayes’ theorem used for classification tasks by assuming that the features of a data point are independent of each other.
+
+### Unsupervised Learning
+
+Unsupervised learning involves training ML algorithms on unlabeled datasets where the data has yet to be categorized or labeled. The ML system itself learns to classify and process unlabeled data to learn from its inherent structure.
+
+Examples of unsupervised learning algorithms include:
+
+1. **Clustering Algorithms**: Techniques used to group similar data points into clusters based on their features.
+2. **Association Rule Learning Algorithms**: Methods used to discover patterns and relationships between variables in the data.
+3. **Principal Component Analysis (PCA)**: A dimensionality reduction technique used to transform data into a lower-dimensional space while retaining as much variance as possible.
+
+### Reinforcement Learning
+
+Reinforcement learning involves training ML algorithms through ongoing interactions between an AI system and its environment. Algorithms receive numerical scores as rewards for generating decisions and outcomes, reinforcing positive interactions and behaviors over time.
+
+Examples of reinforcement learning algorithms include:
+
+1. **Markov Decision Processes (MDPs)**: Model-based methods used to solve sequential decision-making problems.
+2. **Q-Learning**: A model-free method used to learn the value function of an action in a given state.
+3. **SARSA**: Another model-free method used to learn the value function of an action in a given state.
+4. **REINFORCE Algorithm**: A policy-based method used to learn the policy of an agent in a given environment.
+5. **Actor-Critic Algorithm**: A hybrid method used to learn both the policy and the value function of an agent in a given environment.
+
+
+## Introduction Deep learning (DL) 
+
+Deep learning (DL) is a powerful subset of machine learning techniques that are inspired by the structure and function of the brain's neural networks. At the core of deep learning are artificial neural networks (ANNs), which are computational models composed of interconnected nodes called neurons. These neurons are organized into layers, allowing the network to learn hierarchical representations of data through a process called training.
+
+ANNs are the fundamental building blocks of deep learning models. They consist of the following key components:
+
+### Layers
+
+- **Input Layer**: This layer receives the input data, such as an image or a text sequence.
+- **Hidden Layers**: These are the intermediate layers that transform the input data into increasingly abstract representations. The depth of a neural network refers to the number of hidden layers it has.
+- **Output Layer**: This layer produces the final output, such as a classification or a prediction.
+
+### Neurons and Activation Functions
+
+Each layer in an ANN is composed of neurons, which are the basic computational units. Neurons receive input from the previous layer, perform a weighted sum of these inputs, and apply an activation function to produce an output that is passed to the next layer.
+
+Common activation functions include:
+
+- **Sigmoid**: $$\sigma(x) = \frac{1}{1 + e^{-x}}$$ [1]
+- **Rectified Linear Unit (ReLU)**: $$f(x) = \max(0, x)$$ [1]
+- **Hyperbolic Tangent (Tanh)**: $$\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$ [1]
+
+### Training Neural Networks
+
+Training an ANN involves the following key processes:
+
+1. **Forward Propagation**: Input data is passed through the network, and the output is computed.
+2. **Loss Function**: A loss function measures the difference between the predicted output and the true target value. Common loss functions include Mean Squared Error (MSE) for regression tasks and Cross-Entropy Loss for classification tasks.
+3. **Backpropagation**: The gradients of the loss function with respect to the weights are computed using the chain rule of calculus. This process is called backpropagation.
+4. **Optimization**: The weights of the network are updated using an optimization algorithm, such as Gradient Descent, to minimize the loss function. Popular variants of Gradient Descent include Stochastic Gradient Descent (SGD), Mini-batch Gradient Descent, Adam, and RMSprop.
+
+## Applications of Deep Learning
+
+Deep learning has revolutionized various fields by providing state-of-the-art performance in numerous applications, including:
+
+- **Computer Vision**: Image classification, object detection, image segmentation (e.g., using Convolutional Neural Networks (CNNs)).
+- **Natural Language Processing (NLP)**: Language translation, sentiment analysis, text generation (e.g., using Recurrent Neural Networks (RNNs) and Transformers).
+- **Speech Recognition**: Voice assistants, automated transcription.
+- **Healthcare**: Disease diagnosis from medical images, personalized treatment recommendations.
+- **Autonomous Vehicles**: Perception and decision-making systems.
+- **Astrophysics**: Classifying celestial objects, detecting exoplanets, analyzing the interstellar medium.
+
+
+### References
+
+1. Springer, "Deep Learning: A Comprehensive Overview on Techniques and Applications" (2021)
+2. Biostrand AI, "AI, ML, DL, and NLP: An Overview" (2022)
+3. NCBI, "Introduction to Machine Learning, Neural Networks, and Deep Learning" (2020)
+4. Clive Maxfield, "What the FAQ are AI, ANNs, ML, DL, and DNNs?" (n.d.)
+5. DataCamp, "Introduction to Deep Neural Networks" (n.d.)
+

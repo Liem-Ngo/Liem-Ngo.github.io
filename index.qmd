@@ -1,0 +1,27 @@
+# Basis Deep Learning Workshop
+
+*13 June 2024*
+
+## Introduction
+
+Our deep learning workshop includes core concepts with hands-on PyTorch experience. You’ll dive into Machine Learning (ML) and Deep Learning (DL) basics, focusing on Artificial Neural Networks (ANN). Explore astrophysics applications and participate in interactive Q&A sessions. Learn about forward and backward passes, layers, activation functions, and loss calculation. Engage in practical exercises, such as fitting a sine function in Google Colab, and discover Tensor Playground to visualize tensor operations.
+
+## Timetable
+
+| **Time**      | **Activity**                                                |
+|---------------|-------------------------------------------------------------|
+| 12:30 - 13:00 | Coffee                                                      |
+| 13:00 - 13:05 | Introduction to the Workshop: Welcome                       |
+| 13:05 - 13:50 | Introduction to ML and DL (with ANN)                        |
+|               | ML and DL applied in Astrophysics                           |
+|               | Q&A                                                         |
+| 13:50 - 14:00 | Coffee break                                                |
+| 14:00 - 14:30 | Intro: Layers, Activations, Backpropagation, Loss           |
+| 14:30 - 15:20 | What is the neural network and how it learns                |
+|               | Deep Learning with Pytorch and Tensor Playground            |
+| 15:20 - 15:25 | Summary: General structure of constructing a model using DL |
+| 15:25 - 15:40 | Q&A                                                         |
+| 15:40 - 15:55 | Playing with Tensor Playground                              |
+| 15:55 - 16:00 | Q&A                                                         |
+| 16:00 - 16:15 | Coffee break                                                |
+| 16:15 - 17:30 | Hands-on session                                            |

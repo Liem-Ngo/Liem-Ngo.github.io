@@ -1,0 +1,40 @@
+### Introduction to TensorFlow Playground
+
+[TensorFlow Playground](https://playground.tensorflow.org/) is an interactive web-based tool designed to help users understand the inner workings of neural networks. It provides a visual and intuitive interface for experimenting with various neural network architectures and parameters without needing to write any code. This educational tool allows users to see how changes to hyperparameters and network structure affect the model's performance on simple datasets.
+
+### Key Features
+
+![](images/Screenshot 2024-06-07 at 00.46.48.png)
+
+-   **Interactive Visualization**: Users can visualize the data, the decision boundaries formed by the neural network, and how these boundaries evolve as the network trains.
+-   **Real-time Feedback**: Observe how changing hyperparameters and network structure in real-time impacts the training process and model performance.
+-   **Educational Tool**: Ideal for students, educators, and anyone new to machine learning who wants to gain a deeper understanding of neural networks.
+
+### List of Hyperparameters and Settings in TensorFlow Playground
+
+1.  **Data Settings**:
+    -   **Dataset Type**: Choose from a variety of pre-set datasets like spirals, circles, Gaussian, and more.
+    -   **Noise Level**: Adjust the amount of noise in the dataset to see how it affects model performance.
+2.  **Network Architecture**:
+    -   **Number of Hidden Layers**: Adjust the number of hidden layers in the neural network.
+    -   **Number of Neurons per Layer**: Control the number of neurons in each hidden layer.
+3.  **Activation Functions**:
+    -   **ReLU (Rectified Linear Unit)**
+    -   **Tanh (Hyperbolic Tangent)**
+    -   **Sigmoid**
+    -   **Linear**
+4.  **Regularization**:
+    -   **Regularization Type**: Choose between L1 and L2 regularization.
+    -   **Regularization Rate**: Set the strength of the regularization to prevent overfitting.
+5.  **Learning Rate**:
+    -   **Adjust the learning rate**: Control the step size at each iteration while moving toward a minimum of the loss function.
+6.  **Batch Size**:
+    -   **Adjust the batch size**: Determine the number of training examples used in one iteration.
+7.  **Problem Type**:
+    -   **Classification**: For tasks where the output is a category.
+    -   **Regression**: For tasks where the output is a continuous value.
+8.  **Visualization Settings**:
+    -   **Show Training Data**: Toggle the visibility of the training data points.
+    -   **Show Test Data**: Toggle the visibility of the test data points.
+    -   **Heatmap**: Visualize the decision boundary of the neural network.
+    -   **Training Iterations**: Set the number of iterations to train the model.

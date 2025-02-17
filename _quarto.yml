@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "basic-DL"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: DL-intro.qmd
+        text: DL-Intro
+      - href: DL-detail.qmd
+        text: DL-Numpy       
+      - href: intro_pytorch.qmd
+        text: Intro Pytorch
+      - href: tensor_playground.qmd
+        text: Playground
+  
+ 
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
