@@ -6,9 +6,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: DL-detail.qmd
-        text: DL-Numpy       
+        text: Home     
       - href: intro_pytorch.qmd
         text: Intro Pytorch
       - href: tensor_playground.qmd
